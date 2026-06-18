@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment / secrets
+.env
+secrets.py
+inventory/inventory.py
+scripts/inventory.py
+scripts/__pycache__
+
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# Config backups - do not upload real device configs
+configs/*
+!configs/sanitized_samples/
+
+# Logs
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
